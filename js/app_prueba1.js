@@ -1,7 +1,7 @@
 const enlace = document.querySelectorAll('.navegacion a');
 
 
-    
+
 
 let acu = 0;
 
@@ -14,6 +14,14 @@ setInterval( () => {
         }
     }
 }, 1000);
+
+let acu2 = 0;
+
+window.onscroll = function () {
+    console.log('Scrol!');
+    acu2++;
+    console.log(acu2);
+}
 
 
 
